@@ -1,4 +1,4 @@
-transform "artifact-download" do |item|
+transform "any-task/plugin-key/com.atlassian.bamboo.plugins.atlassian-bamboo-plugin-aws-codedeploy:task.aws.codeDeploy" do |item|
   [
     {
       "uses" => "actions/unicorn@v3",
